@@ -3,13 +3,14 @@
 ## Nombre: Jeramhil Javier Solis Yari
 
 En este repo está el pipeline diseñado para ingerir los 3 archivos de datos correspondientes a Café Norte y sus movimientos de negocio
+Desde cafe_norte_main() se puede dar la orden para que el pipeline corra.
 
 ## ¿Por qué decidí utilizar python?
 Personalmente me parece una herramienta dinámica y adecuada para un manejo por etapas de los datos. Además,suele ser una herramienta útil para portotipado en proyectos a nivel profesionalmente, y ha sido parte de mi portafolio de herramientas para proyectos de todo tipo.
 
 ## Respuestas del reto:
 Las respuestas a las 4 preguntas de negocio están en un archivo de texto aparte "respuestas.txt"
-
+La propuesta técnica para el cliente está en el archivo "propuesta.pdf"
 
 ## Interpretación personal de las 4 preguntas de negocio a responder:
 
