@@ -44,7 +44,7 @@ def statements_main(modelos_dict:dict):
         df_ventas_sucursales
     )
    
-    logger.debug(f"\n1.Top 10 SKUs por rotación de inventario en los últimos 6 meses:\n\n{respuesta_1}"
+    logger.info(f"\n1.Top 10 SKUs por rotación de inventario en los últimos 6 meses:\n\n{respuesta_1}"
                 f"\n\n2.Tiendas con quiebres de stock de más de 3 días en el último trimestre: \n\n{respuesta_2}"
                 f"\n\n3.Crecimiento mes a mes (MoM) de ventas por canal (físico vs e-commerce) en el último año:\n\n{respuesta_3}")
 

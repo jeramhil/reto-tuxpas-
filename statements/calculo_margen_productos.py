@@ -55,7 +55,7 @@ def calcular_margenes_producto(compras_sucursales_con_costo:pd.DataFrame):
     ].copy()
 
 
-    logger.debug(f"\n\n4.Productos con margen negativo y en qué tiendas ocurren:\n\n{resultado_4}"
+    logger.info(f"\n\n4.Productos con margen negativo y en qué tiendas ocurren:\n\n{resultado_4}"
                 #f"\n{detalle_4}"    
                 )
     
