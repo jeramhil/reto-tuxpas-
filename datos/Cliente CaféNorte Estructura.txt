@@ -1,0 +1,36 @@
+Cliente: CaféNorte 
+Estructura: 40 tiendas físicas + canal digital Shopify
+Datos: 3 fuentes de información
+	1. Intentario en JSON
+	2. Registro de ventas en csv 
+	3. ordenes de ecommerce en parquet	
+	
+Presupuesto mensual para datos: $200 al mes (Tienen cuenta AWS solamente creada)
+
+Objetivo: Cliente quiere 1 solo lugar para ver las ventas y rotación de inventario. La arquitectura debe estar orientada a AWS 
+
+Primer entregable: Pipeline
+* Ingerir datos de las 3 fuentes.
+* Normalización y Conciliación de los datos
+* Termina en un modelo que permite realizar pregutnas de negocio
+* Permite responder las siguientes preguntas
+	1. Top 10 SKUs por rotación de inventario en los últimos 6 meses.
+	2. Tiendas con quiebres de stock de más de 3 días en el último trimestre.
+	3. Crecimiento mes a mes (MoM) de ventas por canal (físico vs e-commerce) en el último año.
+	4. Productos con margen negativo y en qué tiendas ocurren.	
+
+Segundo entregable: Propuesta técnica para el cliente (2 paǵinas)
+
+* Arquitectura propuesta en AWS si esto se llevara a producción: diagrama + servicios + justificación.
+* Estimación de costo mensual.
+* Plan de implementación por fases: qué entregas primero, qué después, qué riesgos ves.
+* Supuestos y preguntas abiertas que le harías al cliente antes de firmar.
+
+Tercer entregable: Bitacora de uso de IA 
+* Que herramienta (Modelo y versión).
+* Flujo del trabajo junto a IA.
+* Prompts especificando prompt, respuesta de la IA y qué se decidió hacer con ella
+* 1 caso de error de la IA y qué se hizo alrededor del fallo
+* Resultado de validación y evaluación: ¿Qué parte del resultado consideras 100% tuya? ¿Qué parte es mérito de la IA? ¿Cómo validaste que el output es correcto, más allá de que "corre sin error"?
+
+

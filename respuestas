@@ -1,0 +1,57 @@
+1.Top 10 SKUs por rotación de inventario en los últimos 6 meses:
+
+             sku_erp  product_id           nombre_producto  rotacion_inventario
+0  ERP-PROV-MX-066-B          66             Mocha Bebidas             1.851003
+1  ERP-PROV-MX-025-C          25             Latte Bebidas             2.024190
+2  ERP-PROV-MX-028-D          28     Selección Cafe Molido             2.074672
+3  ERP-PROV-MX-033-D          33      Especial Cafe Molido             2.145427
+4  ERP-PROV-MX-011-C          11         Bolillo Panaderia             2.153320
+5  ERP-PROV-MX-040-A          40         Chocolate Bebidas             2.174687
+6  ERP-PROV-MX-056-C          56        Empanada Panaderia             2.185464
+7  ERP-PROV-MX-061-D          61  Descafeinado Cafe Molido             2.266942
+8  ERP-PROV-MX-017-B          17    Quiche Comida Caliente             2.324088
+9  ERP-PROV-MX-005-C           5       Croissant Panaderia             2.358288
+
+2.Tiendas con quiebres de stock de más de 3 días en el último trimestre: 
+
+           ciudad        sucursales
+0            CDMX  T001, T016, T031
+1          Cancún  T008, T023, T038
+2       Chihuahua  T010, T025, T040
+3   Ciudad Juárez        T013, T028
+4     Guadalajara  T002, T017, T032
+5      Hermosillo  T009, T024, T039
+6            León  T006, T021, T036
+7        Mexicali        T012, T027
+8       Monterrey  T003, T018, T033
+9          Mérida  T007, T022, T037
+10   Nuevo Laredo        T014, T029
+11         Puebla  T004, T019, T034
+12      Querétaro  T005, T020, T035
+13        Reynosa        T015, T030
+14        Tijuana        T011, T026
+
+3.Crecimiento mes a mes (MoM) de ventas por canal (físico vs e-commerce) en el último año:
+
+        mes  MoM_fisico  MoM_ecommerce 
+0   2025-03    9.278255             NaN
+1   2025-04   -2.379152             NaN
+2   2025-05    7.404371       -4.729715
+3   2025-06   -4.697846       -7.049236
+4   2025-07    4.535792        3.308133
+5   2025-08   -0.635583       -1.933574
+6   2025-09   -5.329454        0.481093
+7   2025-10    7.930405        8.986264
+8   2025-11   -7.531066       -4.557689
+9   2025-12    5.848695       -3.531068
+10  2026-01   -3.698030       -0.504839
+11  2026-02   -7.966802       -6.276785
+12  2026-03    8.972243        8.511320
+
+4.Productos con margen negativo y en qué tiendas ocurren:
+
+   product_id   sku_pos  margen_negativo_total         tiendas
+0           1  CN-00001              -12663.62          TODAS
+1           2  CN-00002              -47595.85          TODAS
+2          15  CN-00015             -158216.09          TODAS
+
